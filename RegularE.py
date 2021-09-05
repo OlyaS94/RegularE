@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import csv, re
 
 
@@ -40,8 +34,6 @@ if __name__ == '__main__':
         datawriter = csv.writer(f, delimiter=',')
         datawriter.writerows(create_new_list(contacts_list))
 
-
-# In[ ]:
 
 
 
